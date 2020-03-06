@@ -21,7 +21,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 # street_address
 # interest_level: this is the target variable. It has 3 categories: 'high', 'medium', 'low'
 
-def printFeatureTypes():
+def printFeatureTypes(data):
 	for key in data: 
 		i = 0
 		for s in data[key]:
